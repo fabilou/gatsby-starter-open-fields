@@ -6,6 +6,15 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Open Fields`,
+    titleTemplate: `%s · Open Fields`,
+    author: `You`,
+    description: `This will be a really nice gatsby site`,
+    url: `example.com`,
+    logo: `/icon.png`
+  },
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -35,7 +44,7 @@ module.exports = {
         background_color: `#f9fcf2`,
         theme_color: `#eefcc7`,
         display: `minimal-ui`,
-        icon: `./src/data/icon.png`
+        icon: `./staic/icon.png`
       }
     },
     `gatsby-plugin-offline`
