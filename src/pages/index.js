@@ -2,8 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 
-import * as style from "./index.module.sass"
-
 const HomePage = () => (
   <Layout>
     <h1>Hello there!</h1>
