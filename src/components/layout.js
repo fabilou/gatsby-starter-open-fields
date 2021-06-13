@@ -3,7 +3,7 @@ import React from "react"
 import * as style from "./layout.module.sass"
 
 const Layout = ({children}) => (
-  <div className={style.layout}>
+  <div className={style.site}>
     {children}
   </div>
 )
