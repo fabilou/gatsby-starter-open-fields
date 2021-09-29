@@ -1,1 +1,1 @@
-This is a simple gatsby starter by FabiLou Sax.
+This is a simple gatsby starter by Fabi Lou Sax.
