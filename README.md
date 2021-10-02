@@ -1,6 +1,6 @@
 # Open Fields
 
-Open Fields is a simple Gatsby starter by Fabi Lou Sax using Sass.
+A simple Gatsby starter using Sass.
 
 ## Plugins
 * [Gatsby Plugin Image →](https://www.gatsbyjs.com/plugins/gatsby-plugin-image)
@@ -11,3 +11,6 @@ Open Fields is a simple Gatsby starter by Fabi Lou Sax using Sass.
 * [Gatsby Plugin Sharp →](https://www.gatsbyjs.com/plugins/gatsby-plugin-sharp)
 * [Gatsby Source Filesystem →](https://www.gatsbyjs.com/plugins/gatsby-source-filesystem)
 * [Gatsby Transformer Sharp →](https://www.gatsbyjs.com/plugins/gatsby-transformer-sharp)
+
+## Install
+Note: 
