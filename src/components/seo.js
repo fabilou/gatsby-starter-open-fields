@@ -12,6 +12,7 @@ const Seo = ({ title, description, image, path }) => {
           author
           description
           url
+          lang
           logo
         }
       }
@@ -24,11 +25,15 @@ const Seo = ({ title, description, image, path }) => {
     description: description || data.site.siteMetadata.description,
     defaultImage: data.site.siteMetadata.logo,
     image: image || data.site.siteMetadata.logo,
-    url: data.site.siteMetadata.url + path || "/"
+    url: data.site.siteMetadata.url + path || "/",
+    lang: data.site.siteMetadata.lang
   }
 
   return (
     <Helmet
+      htmlAttributes={{
+        lang: {seo.lang},
+      }}
       title={seo.title}
       titleTemplate={
         title === undefined || title === "" ? null : seo.titleTemplate
