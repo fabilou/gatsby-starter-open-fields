@@ -12,7 +12,8 @@ module.exports = {
     author: `You`,
     description: `This will be a really nice gatsby site`,
     url: `example.com`,
-    logo: `/icon.png`
+    logo: `/icon.png`,
+    lang: `en`
   },
 
   plugins: [
